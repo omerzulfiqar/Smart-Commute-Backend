@@ -1,0 +1,13 @@
+node_modules
+
+dump
+.tmp
+.*swp
+*.log
+*.zip
+*.pyc
+.DS_store
+npm-debug.log
+coverage
+.vscode
+yarn.lock
