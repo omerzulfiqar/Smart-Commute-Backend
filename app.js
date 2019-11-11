@@ -1,5 +1,3 @@
-'use strict';
-
 const ms = require('ms');
 const cors = require('cors');
 const path = require('path');
@@ -17,20 +15,21 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(setConnectionTimeout('30s'));
-
 function setConnectionTimeout(time) {
   const delay = typeof time === 'string'
     ? ms(time)
     : Number(time || 5000);
 
+  // eslint-disable-next-line func-names
   return function (req, res, next) {
     res.connection.setTimeout(delay, () => {
-    res.err = `timeout ${delay}.`;
+      res.err = `timeout ${delay}.`;
     });
     next();
   };
 }
+
+app.use(setConnectionTimeout('30s'));
 
 // Enable ALL CORS Requests
 const corsOptions = {
