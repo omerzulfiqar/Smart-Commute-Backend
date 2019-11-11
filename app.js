@@ -6,6 +6,8 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const event = require('./route/event');
+
 const app = express();
 
 const index = require('./route/index');
@@ -33,8 +35,8 @@ function setConnectionTimeout(time) {
 // Enable ALL CORS Requests
 const corsOptions = {
   origin: '*',
-  methods: [ 'GET', 'PUT', 'DELETE', 'POST', 'PATCH', 'OPTIONS' ],
-  allowedHeaders: [ 'Content-Type']
+  methods: ['GET', 'PUT', 'DELETE', 'POST', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type'],
 };
 
 app.use(cors(corsOptions));
@@ -43,6 +45,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', index);
+app.use('/api/v1/event', event);
 
 
 app.use((req, res, next) => {
@@ -76,10 +79,8 @@ app.use((err, req, res) => {
 
   res.render('error', {
     message: err.message,
-    error: error
+    error,
   });
-
-
 });
 
 
