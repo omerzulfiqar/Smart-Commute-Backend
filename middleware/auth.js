@@ -5,6 +5,7 @@ const AuthMiddleware = {};
 
 AuthMiddleware.requiredAuth = () => async (req, res, next) => {
   const apiKey = req.headers['api-key'];
+  console.log(`api key : ${apiKey}`);
   try {
     if (apiKey === 'ff6c0eac-18d9-4ef8-be1b-50f3419a51d1') {
       next();
