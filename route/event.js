@@ -2,6 +2,7 @@ const express = require('express');
 const _ = require('lodash');
 const HTTPStatus = require('http-status');
 const db = require('../model/database.js');
+const { requiredAuth } = require('../middleware/auth.js');
 
 const router = express.Router();
 
@@ -27,10 +28,14 @@ router.get('/', async (_req, res) => {
   }
 });
 
-// router.post('/', async (req, res) => {
-//   const event = req.body;
-//   const result = await db.db('gmap').collection('event').insertOne(event);
-//   res.status(HTTPStatus.CREATED).json({ id: result.insertedId });
-// });
+router.put('/', requiredAuth(), async (req, res) => {
+  const events = req.body;
+  _.each(events, async e => {
+    console.log(e);
+    // const result = await db.db('twitter').collection('User').insertOne(e);
+  });
+  
+  res.status(HTTPStatus.CREATED).json({ id: 'id' });
+});
 
 module.exports = router;
