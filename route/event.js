@@ -24,7 +24,6 @@ router.get('/', async (_req, res) => {
       event.category = d.Category;
       events.events.push(event);
     });
-    console.info(events);
     res.status(HTTPStatus.OK).json(events);
   } catch (err) {
     res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json(err);
@@ -40,7 +39,7 @@ router.put('/', requiredAuth(), async (req, res) => {
   const removeArray = [];
   const addArray = [];
   _.each(events, async e => {
-    if (e.Tokens[0] === 'cleared' || e.Tweet_Text.startsWith('Cleared')) {
+    if (e.Tokens[0] === 'cleared' || e.Tweet_Text.startsWith('Cleared:')) {
       removeArray.push(removeEntry(e.Tweet_ID));
     } else {
       const data = {};
