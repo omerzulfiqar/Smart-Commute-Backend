@@ -10,7 +10,10 @@ const router = express.Router();
 
 router.get('/', async (_req, res) => {
   try {
-    const data = await db.db('twitter').collection('Incident').distinct('Tweet_ID').find({ IsDeleted: { $eq: false } }).toArray();
+    const data = await db.db('twitter').collection('Incident').find({ 
+      IsDeleted: { $eq: false },
+      Category: { $ne: 'Non Traffic Tweet' },
+    }).toArray();
     const events = { events: [] };
     _.each(data, d => {
       const event = {};
