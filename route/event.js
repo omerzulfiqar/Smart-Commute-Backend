@@ -10,23 +10,23 @@ const router = express.Router();
 
 router.get('/', async (_req, res) => {
   try {
-    const data = await db.db('twitter').collection('Incident').find({ 
-      IsDeleted: { $eq: false },
-      Category: { $ne: 'Non Traffic Tweet' },
+    const data = await db.db('twitter').collection('threatevent').find({ 
+      // IsDeleted: { $eq: false }
     }).toArray();
     const events = { events: [] };
-    _.each(data, d => {
-      const event = {};
-      // eslint-disable-next-line no-underscore-dangle
-      event.id = d._id;
-      event.name = d.name;
-      event.description = d.Description;
-      event.lat = d.CoordinateX;
-      event.lng = d.CoordinateY;
-      event.isIncidentTweet = d.IsIncidentTweet;
-      event.category = d.Category;
-      events.events.push(event);
-    });
+    events.events = data;
+    // _.each(data, d => {
+    //   const event = {};
+    //   // eslint-disable-next-line no-underscore-dangle
+    //   event.id = d._id;
+    //   event.name = d.name;
+    //   event.description = d.Description;
+    //   event.lat = d.CoordinateX;
+    //   event.lng = d.CoordinateY;
+    //   event.isIncidentTweet = d.IsIncidentTweet;
+    //   event.category = d.Category;
+    //   events.events.push(event);
+    // });
     res.status(HTTPStatus.OK).json(events);
   } catch (err) {
     res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json(err);
