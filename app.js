@@ -5,6 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const event = require('./route/event');
+const station = require('./route/station');
 
 const app = express();
 
@@ -45,6 +46,7 @@ app.use(cookieParser());
 
 app.use('/', index);
 app.use('/api/v1/event', event);
+app.use('/api/v1/station', station);
 
 
 app.use((req, res, next) => {
