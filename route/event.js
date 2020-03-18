@@ -46,15 +46,19 @@ router.put('/', requiredAuth(), async (req, res) => {
       removeArray.push(removeEntry(e.Tweet_ID));
     } else {
       const data = {};
-      data.Tweet_ID = e.Tweet_ID;
-      data.Created_at = e.created_at;
-      data.Username = e.User_Screen_Name;
-      data.Description = e.Tweet_Text;
-      data.CoordinateX = e.Latitude;
-      data.CoordinateY = e.Longitude;
-      data.IsIncidentTweet = e.isIncidentTweet;
-      data.Category = e.Category;
+      // data.Tweet_ID = e.Tweet_ID;
+      // data.Created_at = e.created_at;
+      // data.Username = e.User_Screen_Name;
+      // data.Description = e.Tweet_Text;
+      // data.CoordinateX = e.Latitude;
+      // data.CoordinateY = e.Longitude;
+      // data.IsIncidentTweet = e.isIncidentTweet;
+      // data.Category = e.Category;
       data.IsDeleted = false;
+      data.code = e.code;
+      data.message = e.message;
+      data.status = e.status;
+      data.date = e.date;
       addArray.push(addEntry(data));
     }
     // const result = await db.db('twitter').collection('User').insertOne(e);
