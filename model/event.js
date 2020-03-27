@@ -34,4 +34,26 @@ EventModel.addEntry = (data) => {
   });
 };
 
+
+EventModel.updateWebPush = (data) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      console.log(data);
+      const e = await db.db('twitter').collection('webpush').findOneAndUpdate({ 
+        keyid: { $eq: 'root' },
+      }, {
+        $set: {
+          endpoint: data.endpoint,
+          auth: data.auth,
+          p256dh: data.p256dh,
+        },
+      });
+      console.log(e);
+      resolve(e);
+    } catch (error) {
+      reject(error);
+    }
+  });
+};
+
 module.exports = EventModel;

@@ -1,0 +1,990 @@
+[
+{
+"code": "F06",
+"created_at": "Thu Mar 31 21:00:58 2016",
+"tweet_text": "Metro: Newspaper vendor stabs man outside Addison Road station http://bit.ly/1X0iSuy",
+"isIncident": "True"
+},
+{
+"code": "F06",
+"created_at": "Thu Mar 31 17:59:29 2016",
+"tweet_text": "Police seek newspaper vendor in stabbing outside Metro station: An altercation outside the Addison Road stop l... http://wapo.st/1SC3BPx",
+"isIncident": "True"
+},
+{
+"code": "F06",
+"created_at": "Thu Mar 31 15:18:38 2016",
+"tweet_text": "Newspaper vendor stabs man at Addison Road Metro station, Metro says @mymajic1023 @MsMichelWright Omg (Sent from WUSA9)",
+"isIncident": "True"
+},
+{
+"code": "F06",
+"created_at": "Thu Mar 31 15:09:19 2016",
+"tweet_text": "CORRECTION: A Washington Post vendor has been accused of stabbing a man at the Addison Road Metro station.",
+"isIncident": "True"
+},
+{
+"code": "F06",
+"created_at": "Thu Mar 31 15:06:17 2016",
+"tweet_text": "Newspaper vendor stabbed person at Addison Road Metro Station",
+"isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 21:31:08 2016",
+    "tweet_text": "Police say officials working to establish motive of shooting on Green Line near Anacostia Station in Washingto.. http://dld.bz/eqG2b",
+    "isIncident": "True"
+},
+{
+    
+    "code":"F06",
+    "created_at": "Tue Feb 23 21:18:38 2016",
+    "tweet_text": "Police said the victim was found on the platform of the Anacostia station. http://wpo.st/aykE1 wmata",
+    "isIncident": "True"
+},
+{
+    
+    "code":"F06",
+    "created_at": "Tue Feb 23 19:49:07 2016",
+    "tweet_text": "Update: Anacostia station is back open, MTPD has apprehended and identified two suspects wmata",
+    "isIncident": "True"
+},
+{
+    
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:31:14 2016",
+    "tweet_text": "WMATA has shut down the Anacostia station after shooting. Doubt it matters. After this shooting, who'll want to use that station anyway?",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:23:07 2016",
+    "tweet_text": "Someone Just Got Killed At Anacostia Station Call And Check On Y'all Loved Ones Make Sure They Okay SMDH",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:18:19 2016",
+    "tweet_text": "Trains single-tracking between Congress Heights and Navy Yard around Anacostia station. Delays in both directions. http://nbc4dc.com/oS1L7pS",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:11:17 2016",
+    "tweet_text": "Metro Transit Police confirm 1 adult male with gunshot wound at Anacostia Station in Washington, DC - @MetroTransi",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:11:16 2016",
+    "tweet_text": "Metro trains bypassing Anacostia station in Washington, DC, due to investigation of shooting along Green Line - NB  http://ift.tt/1PWjHm3",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:06:36 2016",
+    "tweet_text": "METRO ALERT: Trains are bypassing the Anacostia station. Shuttle bus service has been established. http://nbc4dc.com/vVwpGrR",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:05:47 2016",
+    "tweet_text": "DC Metro: man shot at Anacostia station",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:01:56 2016",
+    "tweet_text": "BreakingNews https://twitter.com/AdamTuss/status/702189130667528193 Report of shooting on Green Line near Anacostia station in Washington, DC -  http://ift.tt/1mh65Aw",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 18:01:44 2016",
+    "tweet_text": "BREAKING: Metro is responding to a shooting on the Green Line near the Anacostia station. http://nbc4dc.com/ri9PhHB",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 17:59:54 2016",
+    "tweet_text": "Report of shooting on Green Line near Anacostia station in Washington, DC - @AdamTuss via @breaking http://bit.ly/1QwgOp1",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 17:58:12 2016",
+    "tweet_text": "check on your loved ones. shooting on Green line near Anacostia Station @wmata",
+    "isIncident": "True"
+},
+{
+    "code":"F06",
+    "created_at": "Tue Feb 23 17:51:49 2016",
+    "tweet_text": "BREAKING - Metro confirms shooting on Green Line near Anacostia station. wmata @nbcwashington",
+    "isIncident": "True"
+},
+
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 22:14:22 2019",
+    "tweet_text": "JUST IN: Capitol South Metro station is now reopened after police investigated stabbing on the platform. The victim is a teenage male who is undergoing surgery and is in critical condition. @ABC7Kevin @tomrousseyABC7 https://wjla.com/news/local/juvenile-stabbing-capitol-south-metro-station",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 20:03:18 2019",
+    "tweet_text": "D.C. authorities seek teen wanted in Capitol South Metro Station stabbing https://www.cbsnews.com/news/dc-metro-stabbing-washington-area-police-seek-teen-wanted-for-capitol-south-station-stabbing-live-updates/ via @CBSNews",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 18:58:53 2019",
+    "tweet_text": "UPDATE: DC Police Chief told us 15 year old stabbing victim is in very critical condition and in surgery right now. They believe he was stabbed on an Orange Line train, got off at the Capitol South Metro station, and collapsed near the turnstile. Mayor declined to speak about it.   at Capitol South Metro Station",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 18:47:10 2019",
+    "tweet_text": "Metro Transit Police said Capitol South Station is likely to remain closed \"for some time,\" as authorities investigate a stabbing that occurred Friday afternoon. Metro is advising commuters to use the Federal Center SW or Eastern Market stations.",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 18:44:50 2019",
+    "tweet_text": "Update: Investigators believe the incident began with an altercation aboard a Metro train. The victim was stabbed, approached the station manager s booth at Capitol South &amp; collapsed. He wasn't breathing &amp; taken to hospital w/ life-threatening injuries. https://apnews.com/48dc9362105c4a42a11f213b7899fd69",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:53:59 2019",
+    "tweet_text": "Capitol South Metro closed as police respond to stabbing https://politi.co/35rEYBm via @politico",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:49:10 2019",
+    "tweet_text": "BREAKING Capitol South Metro not operating following stabbing of teen. This is half a block from the Cannon House office building Capitol WashingtonDC stabbing @wmata @Metrorailinfo @ABC7News 7onyourside",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:48:35 2019",
+    "tweet_text": "Police shut down Capitol South Metro station today after a person was found stabbed. http://bit.ly/324al2K",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:33:48 2019",
+    "tweet_text": "@DCPoliceDept say a boy has been stabbed and seriously injured near the U.S. Capitol. Officers are looking for a 14-year-old girl in connection with the stabbing near the Capitol South Metro station. We'll update with additional info as we get it.",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:24:29 2019",
+    "tweet_text": "Huge Police/Emergency Response at Capitol South Metro \"Confirmed stabbing\" Station Closed, Look Out for 14 Year Old Female. https://www.popville.com/2019/10/huge-police-emergency-response-at-capitol-south-metro-confirmed-stabbing/",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:20:33 2019",
+    "tweet_text": "Was just at Capitol South Metro. Heard people screaming. Saw someone on ground, somebody else was yelling  Stop moving  at the person. A young man burst into tears and ran off to cry alone. I got out &amp; heard sirens approaching. Police supposedly are saying  multiple stabbings",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:19:32 2019",
+    "tweet_text": "The Capitol South Metro station is currently closed while police investigate a juvenile stabbing. What we know, HERE:",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:19:05 2019",
+    "tweet_text": "BREAKING Juvenile stabbed at Capitol South Metro Station. @wusa9",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:18:16 2019",
+    "tweet_text": "Trains bypassing Capitol South Metro station as police respond to report of stabbing - The Washington Post",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:06:16 2019",
+    "tweet_text": "@wmata - about 15 minutes ago saw a young man bleeding and down from a shooting or stabbing in the turnstile of the Capitol South Metro. Can you please share an update - what happened? CC: @unsuckdcmetro",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 17:02:32 2019",
+    "tweet_text": "@DCPoliceDept I just saw a young man bleeding and down at Capitol South Metro. Metro surrounded by cops. Can you please give an update?",
+    "isIncident": "True"
+},
+{
+    "code":"D05",
+    "created_at": "Fri Oct 11 16:58:20 2019",
+    "tweet_text": "Capitol South Metro Station next to the US Capitol is closed off with paramedics and police everywhere. USCP officer just told me  multiple stabbings.",
+    "isIncident": "True"
+},
+
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 23:45:24 2020",
+        "tweet_text": "Orange & silver running again: S: Final Update: Trains Suspended: Orange and Silver Lines WMATA reports trains are no longer bypassing Court House Station. Normal service has resumed between Clarendon and Foggy Bottom. Shuttle bus service are no longer needed.",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 23:29:01 2020",
+        "tweet_text": "WMATA reports trains are no longer bypassing Court House Station. Normal service has resumed between Clarendon and http://alertdc.io/t/5pf",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 22:26:20 2020",
+        "tweet_text": "A person was hit by a silver line train at the Court House station. I hope they are ok. wmata",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 23:30:33 2020",
+        "tweet_text": "A medical emergency caused someone to fall onto the tracks and be struck by a train at Court House station. bloody scarf being photographed for evidence, crime scene unit at the scene now @wmata @ABC7News wmata metro",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 23:20:20 2020",
+        "tweet_text": "Orange Line trains bypassing Court House Metro after person struck by train",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 23:07:41 2020",
+        "tweet_text": "Woman struck by train at Court House Metro Station after experiencing medical emergency, officials say",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 22:51:07 2020",
+        "tweet_text": "Be safe out there esp if you ride the Metro in DC. Currently on the orange line and the train operator yells over the speaker that there was a suicide at Court House. So tragic and lack of sensitivity in this situation.",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 22:44:22 2020",
+        "tweet_text": "Person struck by train at Court House Metro station, officials say; Orange and Silver line service suspended in area https://wapo.st/3azI3lo",
+        "isIncident": "True"
+    },
+    {
+        "code": "K01",
+        "created_at": "Thu Jan 23 22:23:55 2020",
+        "tweet_text": "If you have to metro through court house, bail now. Was on a train that just hit a person as we pulled into the station",
+        "isIncident": "True"
+    },
+    
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 22:55:05 2018",
+            "tweet_text": "Man seriously injured after being struck by train at East Falls Church Metro Station - WJLA: WJLA Man seriously injured after being struck by train at East Falls Church Metro Station WJLA FALLS CHURCH, Va. (WJLA)   A man is in critical condition after  http://dlvr.it/QXCWxk",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 22:07:36 2018",
+            "tweet_text": "Org/Sil Line: Normal service has resumed at East Falls Church.",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 20:28:33 2018",
+            "tweet_text": "Org/Sil Line: No longer single tracking. Residual delays both directions following a person struck by a train earlier at East Falls Church.",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 19:34:35 2018",
+            "tweet_text": "Just drove by, saw heavy police and fire presence at East Falls Church. Person struck by train, taken to hospital. https://patch.com/virginia/fallschurch/person-struck-train-east-falls-church-metro fallschurch arlington",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 19:14:40 2018",
+            "tweet_text": "MTPD on the scene at East Falls Church for person struck by train - appears intentional. At this time, the victim has been removed from the track and is being transported to the hospital. wmata",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 19:14:13 2018",
+            "tweet_text": "Orange & Silver Line Trains are single tracking btwn East Falls Church &amp; Ballston due to a person struck by train. Delays in both directions.",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 19:12:07 2018",
+            "tweet_text": "Org/Sil Line: Single tracking btwn East Falls Church &amp; Ballston due to person struck by train at East Falls Church. Delays both directions.",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 19:05:26 2018",
+            "tweet_text": "** Arlington County ** East Falls Church Metro Call: Person has jumped in front of a train Units: E106 E418 E102 E108 E103 R109 R418 T106 TL104 TR421 M102 M428 EMS112 EMS111 EMS404 BC112 BC111 BC404 BC120 CA114 Command: BC112",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+            "created_at": "Wed Jun 13 18:54:55 2018",
+            "tweet_text": "BREAKING: Person struck by train at East Falls Church Metro station https://www.arlnow.com/2018/06/13/breaking-man-jumps-in-front-of-train-at-east-falls-church-metro/",
+            "isIncident": "True"
+        },
+        {
+            "code": "K05",
+        "created_at": "Wed Jun 13 18:49:24 2018",
+        "tweet_text": "Orange/Silver Line: Trains are single tracking thru East Falls Church due to a person struck by train. Expect delays in both directions.",
+        "isIncident": "True"
+},
+
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 22:45:46 2019",
+      "tweet_text": "UPDATE: Metro service has been restored after death on the tracks at Farragut West. https://bit.ly/2rltNLv",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 20:40:58 2019",
+      "tweet_text": "WMATA has restored normal OR/SV/BL service after an earlier incident where someone was hit by a train @Farragut West.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 20:16:44 2019",
+      "tweet_text": "UPDATE: The person who was killed at Farragut West intentionally got in front of oncoming Metro train, based on surveillance video, according to @wmata and @MetroTransitPD. https://wjla.com/news/local/person-hit-metro-train-farragut-west-service-suspended",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 20:12:35 2019",
+      "tweet_text": "UPDATED: Orange/Blue Line Delay: Single tracking btwn Foggy Bottom & McPherson Sq due to a person struck by a train earlier at Farragut West. Expect delays both directions.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 19:25:24 2019",
+      "tweet_text": "Unfortunately, the person struck by a train this afternoon at Farragut West succumbed to injuries. Video shows it was an intentional act. Please, if you or someone you love needs help or just someone to listen, make the call: 1-855-320-5433 wmata @_DCHealth SuicideAwareness",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:57:31 2019",
+      "tweet_text": "Prayers to the family that lost a loved one today at Farragut West. A person got struck by the train.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:50:35 2019",
+      "tweet_text": "BREAKING: A person has been hit by a train at Metro s Farragut West station Monday afternoon. Metro service has been suspended between Metro Center and Foggy Bottom. https://wjla.com/news/local/person-hit-metro-train-farragut-west-service-suspended",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:37:43 2019",
+      "tweet_text": "Somebody jumped or got pushed in front of the train at Farragut west smfh",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:36:27 2019",
+      "tweet_text": "Farragut West Metro Station Closed Due to a Person Struck by a Train https://www.popville.com/2019/12/farragut-west-metro-station-closed-due-to-a-person-struck-by-a-train/",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:34:15 2019",
+      "tweet_text": "Heartbreaking news out of wmata this afternoon. The person hit by a train at Farragut West has died.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:33:02 2019",
+      "tweet_text": "BREAKING Person struck by Metro train at Farragut West, service for 3 lines suspended",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:32:42 2019",
+      "tweet_text": "Confirmed fatality at @wmata Farragut West station.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:22:13 2019",
+      "tweet_text": "Update technical rescue Farragut West Metro Station. DCsBravest have unified command with @wmata &amp; @MetroTransitPD. We are working to determine if this is a rescue or recovery operation of individual struck by train.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:20:59 2019",
+      "tweet_text": "UPDATED: Orange/Blue Line Delay: Train service suspended between Metro Center and Foggy Bottom due to a person struck by train at Farragut West. Buses available.",
+      "isIncident": "True"
+    },
+    {
+      "code": "C03",
+      "created_at": "Mon Dec  9 18:16:50 2019",
+      "tweet_text": "Individual struck by train at FarragutWest. Orange, Silver, and Blue lines delayed. DC WMATA",
+      "isIncident": "True"
+    },
+
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:27:28 2018",
+        "tweet_text": "UPDATE: Red Line service has been restored after a woman in a motorized wheelchair was struck by a train at Friendship Heights station.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:06:28 2018",
+        "tweet_text": "Red Line UPDATE: Friendship Heights' Jenifer St entrance has re-opened. @wmata",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:05:54 2018",
+        "tweet_text": "UPDATE: The person has been rescued from the tracks and service has been restored. Red Line is still single-tracking between Van Ness and Friendship Heights.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:04:36 2018",
+        "tweet_text": "BREAKING A person has been struck by a train at Friendship Heights station. Train service has been suspended between Van Ness and Medical Center. @wusa9",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:02:07 2018",
+        "tweet_text": "Friendship Heights' Jenifer St entrance has re-opened.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:01:52 2018",
+        "tweet_text": "MORE: @dcfireems says victim in critical condition after being struck by train @Friendship Heights Metro. Victim being transported to hospital.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:01:46 2018",
+        "tweet_text": "Red Line UPDATE: Trains resume single tracking between Van Ness & Friendship Heights stations. Jenifer St entrance is still closed at Friendship Heights. @wmata",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 18:00:33 2018",
+        "tweet_text": "The woman trapped under a Red Line train at Friendship Heights was rescued from the tracks. Service was reinstated and trains are single-tracking in the area.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:58:56 2018",
+        "tweet_text": "Update from Metro on woman in wheelchair struck by a train at Friendship Heights: https://twitter.com/MetroTransitPD/status/1059141615497953280 wmata",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:31:21 2018",
+        "tweet_text": "PERSON TRAPPED UNDERNEATH METRO TRAIN AT FRIENDSHIP HEIGHTS STATION: DC Fire and Rescue confirm they are currently attempting to extricate one patient from underneath a Red Line Metro train.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:25:38 2018",
+        "tweet_text": "Woman on the tracks, rescue in progress Friendship Heights Metro",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:25:06 2018",
+        "tweet_text": "Red Line: Train service suspended btwn Van Ness & Medical Center due to a person struck by train at Friendship Heights. Buses requested.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:23:39 2018",
+        "tweet_text": "COMMUTER ALERT: A person was struck by a train at Friendship Heights Metro Station causing single tracking between Van Ness-UDC and Friendship Heights stations. https://wtop.com/tracking-metro-24-7/2018/11/person-struck-by-train-at-friendship-heights/",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:22:51 2018",
+        "tweet_text": "METRO ADVISORY: Friendship Heights' Jenifer St entrance closed due to a person struck by train. The Western Ave entrance remains open.",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 17:21:48 2018",
+        "tweet_text": "Red Line Alert: Single tracking between Van Ness & Friendship Heights stations due to a person struck by a train. Friendship Heights' Jenifer St entrance closed. @wmata",
+        "isIncident": "True"
+    },
+    {
+        "code": "A08",
+        "created_at": "Sun Nov  4 16:55:13 2018",
+        "tweet_text": "Hearing possibly a person struck by a train at Friendship Heights @unsuckdcmetro",
+        "isIncident": "True"
+    },
+
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 23:36:52 2015",
+        "tweet_text": "Man Found Stabbed to Death at NoMa Metro Station, http://ln.is/nbcwashington.com/UspSa",
+        "isIncident": "True"
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 22:14:14 2015",
+        "tweet_text": "Red Line: No longer single tracking. Residual delays continue in both directions due to an earlier medical emergency at NoMa-Gallaudet.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 21:58:05 2015",
+        "tweet_text": "RED Red Line: NoMa-Gallaudet has re-opened following earlier medical emergency.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 21:52:48 2015",
+        "tweet_text": "Red Line: Single tracking continues btwn Rhode Island Ave and NoMa due to a medical emergency at NoMa. Delays in both directions.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 21:50:03 2015",
+        "tweet_text": "Man Found Stabbed to Death at NoMa Metro Station: Metropolitan police said a man was found dead at the  http://washington.cityandpress.com/node/9835386",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 20:38:22 2015",
+        "tweet_text": "UPDATE: @DCPoliceDept confirms victim of stabbing at NOMA metro station has died. Case now being investigated as a homicide.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 20:23:46 2015",
+        "tweet_text": "BREAKING: Police confirm a man was fatally stabbed at the NoMa Metro station. http://on.wusa9.com/1LKWjqk",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 19:26:04 2015",
+        "tweet_text": "1 person fatally stabbed, possibly during a robbery attempt, at NoMa Gallaudet Metro Station in Washington, D.C. -  http://global-news.co/",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 19:25:59 2015",
+        "tweet_text": "1 person fatally stabbed, possibly during a robbery attempt, at NoMa Gallaudet Metro Station in Washington, D.C. -  http://ift.tt/1fbxkjS",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:56:12 2015",
+        "tweet_text": "DC - NoMa Metro station shut down because of possible police incident.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:54:44 2015",
+        "tweet_text": "MTPD is on scene at NoMa supporting @DCPoliceDept w/an investigation. MPD is handling all public release of info.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:47:19 2015",
+        "tweet_text": "Person stabbed at NoMa metro. Police searching for a suspect. Unconfirmed reports victim may be dead",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:33:31 2015",
+        "tweet_text": "Someone was just stabbed at the NOMA metro stop. My neighborhood scary DC",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:29:33 2015",
+        "tweet_text": "NOMA Metro station on the Red Line closed due to police activity",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:29:21 2015",
+        "tweet_text": "Bloody sheet covered body at Noma metro. Not good. @unsuckdcmetro wmata",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:18:06 2015",
+        "tweet_text": "RED Red Line: Trains are bypassing NoMa Gallaudet due to a medical emergency at NoMa Gallaudet. Buses requested.",
+        "isIncident": ""
+    },
+    {
+        "code": "B35",
+        "created_at": "Sat Jul  4 17:16:28 2015",
+        "tweet_text": "Red Line: Trains are bypassing NoMa Gallaudet due to a medical emergency at NoMa Gallaudet. Buses requested.",
+        "isIncident": ""
+    },
+
+    {
+        "code":"C07",
+        "Unnamed: 0": 16,
+        "created_at": "Mon Mar 16 19:14:19 2020",
+        "tweet_text": "Man fatally stabbed at Pentagon Metro station in Arlington, Virginia https://www.nbcnews.com/news/us-news/least-one-person-stabbed-pentagon-metro-station-arlington-virginia-n1160336 via @nbcnews",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 17,
+        "created_at": "Mon Mar 16 19:02:11 2020",
+        "tweet_text": "Final update: All services have resumed at the Pentagon Metro Station.",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 18,
+        "created_at": "Mon Mar 16 18:59:18 2020",
+        "tweet_text": "UPDATED: Blue/Yellow Line Alert: Pentagon station has re-opened, trains are now servicing the station. Shuttle bus service has been cancelled.",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 9,
+        "created_at": "Mon Mar 16 18:04:00 2020",
+        "tweet_text": "The Metro Transit Police said the man was stabbed on the lower platform of the Pentagon station at about 9 a.m. and died at a hospital later.",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 16,
+        "created_at": "Mon Mar 16 16:59:05 2020",
+        "tweet_text": "Someone stabs a guy in the neck and kills him at Pentagon station. Killer then caught a bus and escaped. How is this even possible, esp with reduced bus service? wmata",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 21,
+        "created_at": "Mon Mar 16 15:44:08 2020",
+        "tweet_text": "The metro rider stabbed at Pentagon Station has died.",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 25,
+        "created_at": "Mon Mar 16 15:18:21 2020",
+        "tweet_text": "Trains are bypassing Pentagon Station in both directions due to the ongoing police investigation. Preliminary suspect information has been established and an investigation is ongoing. (2/2)",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 27,
+        "created_at": "Mon Mar 16 15:09:11 2020",
+        "tweet_text": "INCIDENT: Metro Station Closure LOCATION: Pentagon Metro UPDATE: Bus service at the Pentagon Station is operating as normal. Rail service is still bypassing Pentagon Station. Bus service available for rail passengers. Expect delays and police presence in",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 28,
+        "created_at": "Mon Mar 16 14:40:06 2020",
+        "tweet_text": "A man died after being stabbed on the lower level platform at the Pentagon Metro station on Monday. https://wjla.com/news/local/man-dies-after-being-stabbed-at-pentagon-metro",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 29,
+        "created_at": "Mon Mar 16 13:44:49 2020",
+        "tweet_text": "The hell happened at Pentagon station? All I see is yellow tape shoes, and blood",
+        "isIncident": "True"
+    },
+    {
+        "code":"C07",
+        "Unnamed: 0": 30,
+        "created_at": "Mon Mar 16 13:01:59 2020",
+        "tweet_text": "Black male stabbed at Pentagon station...don t look like he ll make it",
+        "isIncident": "True"
+    },
+    
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 22:10:26 2017",
+          "tweet_text": "UPDATE: Red line service restored after teen shot on train at Takoma Station. http://www.nbcwashington.com/news/local/Police-Responding-to-Shooting-at-Takoma-Metro-Station-438872573.html",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 22:00:26 2017",
+          "tweet_text": "Police search for 3 Takoma Station shooting suspects, Red Line single tracking http://www.fox5dc.com/news/local-news/272277332-story",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 21:34:40 2017",
+          "tweet_text": "Detectives are walking the tracks, looking for evidence at the Takoma station in NW. Shooting happened on a train from Silver Spring",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:39:04 2017",
+          "tweet_text": "Takoma Station: MTPD and MPD o/s investigating a shooting. One GSW victim. Transported to hospital. Will have  http://toplocalnow.com/us/washington/at/15t6588719",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:36:52 2017",
+          "tweet_text": "Heavy police presence at Takoma metro station in dc. A Shady Grove bound red line train is being stopped.",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:26:04 2017",
+          "tweet_text": "ALERT: Police search for 3 suspects responsible for shooting a teenager at Takoma Station, if seen call 9-1-1 http://www.fox5dc.com/news/local-news/272277332-story",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:22:27 2017",
+          "tweet_text": "UPDATE: Metro police released photos of persons of interest after teen shot on train near Takoma station http://nbc4dc.com/64JwC68",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:21:04 2017",
+          "tweet_text": "Takoma update 2: The persons of interest exited Metro at Silver Spring Station. If seen, call 911. Additional photo here. wmata",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:14:04 2017",
+          "tweet_text": "BREAKING: POLICE: 3 men being called persons of interest after shooting at Takoma Metro Station. Possibly armed and dangerous. @ABC7News",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:13:34 2017",
+          "tweet_text": "Sunday PM: Shooting at Takoma Metro station http://dlvr.it/PcDl3c reddit dc",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 20:11:58 2017",
+          "tweet_text": "Right Now: @fox5dc is on scene of a shooting that occurred on a metro train as it approached Takoma Station platform. Suspect(s) at large.",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 19:54:39 2017",
+          "tweet_text": "BREAKING: MTPD and MPD investigating a shooting at Takoma Station, single tracking between Takoma and Silver Spring",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 19:53:21 2017",
+          "tweet_text": "Gunfire leaves one person wounded at/near Takoma wmata station located near DC/MD border, per transit police",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 19:42:31 2017",
+          "tweet_text": "Takoma Station: MTPD and MPD o/s investigating a shooting. One GSW victim. Transported to hospital. Will have lookout info shortly. wmata",
+          "isIncident": "True"
+        },
+        {
+          "code": "B07",
+          "created_at": "Sun Aug  6 19:16:14 2017",
+          "tweet_text": "Something went down at Takoma Station. Lawd! Police galore, there are detectives here.",
+          "isIncident": "True"
+        },
+        
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 18:30:51 2020",
+              "tweet_text": "UPDATE: Suspects in custody following fatal stabbing at Union Station, police say",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 18:18:27 2020",
+              "tweet_text": "FINAL: Red Line Alert: Union Station has re-opened. Shuttle buses have been cancelled.",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 18:16:43 2020",
+              "tweet_text": "Officials are preparing to reopen the Union Station Metro in the next 15 to 20 minutes. It was closed for a deadly stabbing investigation. news dc WTOP",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 18:16:32 2020",
+              "tweet_text": "Police have put up a warning sign at Union Station Metro on First Street NE as police investigate a deadly stabbing. Metro DC news crime journalism WTOP",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 16:44:09 2020",
+              "tweet_text": "My train is skipping Union Station because of police activity. I can see at least five people with suitcases so I sure hope they re heading to the airport and not trying to catch a train",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 16:35:41 2020",
+              "tweet_text": "Red Line trains continue to bypass Union Station due to the police investigation following a fatal stabbing at ~8:20 this morning. Bus shuttles available at: * Judiciary Sq: 4th &amp; F * Union Stn: 1st Street &amp; Massachusetts Ave * NoMa: 2nd &amp; N https://twitter.com/Metrorailinfo/status/1221445221415669762 wmata",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 15:17:21 2020",
+              "tweet_text": "Huge police response at Union Station. Apparently, according to some workers there, someone was stabbed and had passed away down on the platform. Metro is not serving the stop. wmata",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:56:02 2020",
+              "tweet_text": "BREAKING: Manhunt underway after fatal stabbing at Union Station Metro",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:53:19 2020",
+              "tweet_text": "ADVISORY: Issues on Metro's Red Line this morning, trains bypassing Union Station due to a police investigation. Plan ahead. Metro DCTraffic LunarNewYear2020 More @WTOP News for story: https://wtop.com/dc/2020/01/1-dead-after-a-stabbing-at-union-station-metro/",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:46:41 2020",
+              "tweet_text": "Red line trains are temporarily bypassing Union Station.",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:46:24 2020",
+              "tweet_text": "A person is dead after being stabbed at Union Station this morning according to a D.C. Fire spokesperson. The spokesperson said the person died at the scene. D.C. Police say they are looking for two suspects: a black woman and white male, both in their 20s.",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:45:29 2020",
+              "tweet_text": "Union station metro taped off as police investigate deadly stabbing at @UnionStationDC_ metro. @wmata sending people to other stations",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:22:23 2020",
+              "tweet_text": "UPDATE this appears to be a fatal stabbing near Union Station this morning. A @dcfireems Spokesperson tells me DC Fire responded at 8:21a for the report of a stabbing in the Metro. Told one person was declared PDOA on scene   this stands for presumed dead on arrival.",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:13:36 2020",
+              "tweet_text": "BREAKING - police searching for stabbing suspects near Union Station",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 14:04:18 2020",
+              "tweet_text": "Update: D.C. Police and Metro Transit Police are looking for a man and woman in their 20s after a stabbing near the Union Station Metro.",
+              "isIncident": "True"
+            },
+            {
+              "code": "B03",
+              "created_at": "Sun Jan 26 13:37:57 2020",
+              "tweet_text": "Red Line Alert: Trains are temporarily bypassing Union Station due to a police investigation at Union Station. Shuttle buses requested.",
+              "isIncident": "True"
+            },
+            
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 20:54:07 2019",
+                  "tweet_text": "FINAL: Yellow/Green Line Alert: Shaw-Howard's 7th &amp; S Street entrance has re-opened.",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 20:50:39 2019",
+                  "tweet_text": "UPDATED: Yellow/Green Line Delay: No longer single tracking. Residual delays continue in both directions due to an earlier police investigation at Shaw-Howard.",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 20:23:34 2019",
+                  "tweet_text": "Shaw-Howard update: In final stages of investigation. The 7/S street entrance is being reopened. We will be single tracking briefly so that officers can retrieve items from the tracks. Should only take a few minutes. wmata",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 20:17:32 2019",
+                  "tweet_text": "Yellow/Green Line Delay: Trains are single tracking btwn Mt Vernon Sq & U Street due to a police investigation at Shaw-Howard. Delays in both directions.",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 19:23:08 2019",
+                  "tweet_text": "Police are looking for two suspects after a shooting at the Shaw-Howard University Metro Station this afternoon",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 18:55:08 2019",
+                  "tweet_text": "Person Shot Inside Shaw Metro Station: One person is injured after a shooting Friday afternoon in the Shaw-Howard University Metro station. The victim was shot on the station platform after an argument with  http://dlvr.it/R8kXrg TheResistance ImpeachTrump NotMyPresident",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 18:34:55 2019",
+                  "tweet_text": "BREAKING Man shot at Shaw-Howard University Metro Station at 1:12pm. He is conscious and breathing. Witnesses say the victim walked from the metro station to the 700 block of T st NW. MPD MetroTransitPD",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 18:29:40 2019",
+                  "tweet_text": "Shaw-Howard (3/3): [continued] The station remains open and trains are running normally; however, the 7th &amp; S Street entrance is closed due to police investigation. Use 8/R entrance instead, or U Street Station at 10/U. wmata",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 18:29:40 2019",
+                  "tweet_text": "Shaw-Howard (2/3): [continued] Two suspects exited station at 8/R sts NW heading southbound. Lookout: (1) B/M, late teens/early 20s, black shirt w/vertical stripe down left front, jeans, white sneakers... (2) B/M, white t-shirt, blue jeans, gray shoes. CALL 911 if seen. wmata",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 18:29:40 2019",
+                  "tweet_text": "Shaw-Howard (1/3): Approx 1:08 p.m., MTPD &amp; MPD responded for report of gunshots at the station. Confirmed shooting occurred on platform following argument btwn individuals believed to be known to each other. One victim transported w/ non-life-threatening injury. wmata",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 18:20:10 2019",
+                  "tweet_text": "UPDATED: Yellow/Green Line Alert: Shaw-Howard's 7th St entrance is closed due to a police investigation. The 8th St entrance remains open.",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 17:30:02 2019",
+                  "tweet_text": "Bitch somebody just got shot at Shaw-Howard station. I ain t never ran so fast in my life. It s too hot",
+                  "isIncident": "True"
+                },
+                {
+                  "code": "E02",
+                  "created_at": "Fri Jul 19 17:18:32 2019",
+                  "tweet_text": "Young I was just bout to get on the train at Shaw Howard and somebody just got shot in the station ...wtf",
+                  "isIncident": "True"
+                }
+              
+          
+      
+    
+
+
+
+            
+        
+    
+  ]

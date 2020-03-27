@@ -3,7 +3,7 @@ const _ = require('lodash');
 const HTTPStatus = require('http-status');
 const db = require('../model/database.js');
 const { requiredAuth } = require('../middleware/auth.js');
-const { removeEntry, addEntry } = require('../model/event.js');
+const { removeEntry, addEntry, updateWebPush } = require('../model/event.js');
 
 const router = express.Router();
 
@@ -42,9 +42,9 @@ router.put('/', requiredAuth(), async (req, res) => {
   const removeArray = [];
   const addArray = [];
   _.each(events, async e => {
-    if (e.Tokens[0] === 'cleared' || e.Tweet_Text.startsWith('Cleared:')) {
-      removeArray.push(removeEntry(e.Tweet_ID));
-    } else {
+    // if (e.Tokens[0] === 'cleared' || e.Tweet_Text.startsWith('Cleared:')) {
+    //   removeArray.push(removeEntry(e.Tweet_ID));
+    // } else {
       const data = {};
       // data.Tweet_ID = e.Tweet_ID;
       // data.Created_at = e.created_at;
@@ -55,16 +55,18 @@ router.put('/', requiredAuth(), async (req, res) => {
       // data.IsIncidentTweet = e.isIncidentTweet;
       // data.Category = e.Category;
       data.IsDeleted = false;
+      // data.code = e.code;
       data.code = e.code;
-      data.message = e.message;
-      data.status = e.status;
-      data.date = e.date;
+      data.message = e.tweet_text;
+      data.status = 0;
+      data.date = e.created_at;
       addArray.push(addEntry(data));
-    }
+    // }
     // const result = await db.db('twitter').collection('User').insertOne(e);
   });
 
   try {
+    console.log(addArray.length);
     await Promise.all([
       removeArray,
       addArray,
@@ -72,6 +74,38 @@ router.put('/', requiredAuth(), async (req, res) => {
     res.status(HTTPStatus.OK).json({ status: 'ok' });
   } catch (error) {
     res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json({ error });
+  }
+});
+
+router.get('/webpush', async (_req, res) => {
+  try {
+    const data = await db.db('twitter').collection('webpush').find().toArray();
+    const returnData = {
+      auth: data[0].auth,
+      endpoint: data[0].endpoint,
+      p256dh: data[0].p256dh,
+    };
+    res.status(HTTPStatus.OK).json(returnData);
+  } catch (err) {
+    res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json(err);
+  }
+});
+
+
+router.put('/webpush', requiredAuth(), async (req, res) => {
+  try {
+    const data = req.body;
+    // await db.db('twitter').collection('webpush').find().toArray();
+    await updateWebPush(data);
+    const e2 = await db.db('twitter').collection('webpush').find().toArray();
+    const returnData = {
+      auth: e2[0].auth,
+      endpoint: e2[0].endpoint,
+      p256dh: e2[0].p256dh,
+    };
+    res.status(HTTPStatus.OK).json(returnData);
+  } catch (err) {
+    res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json(err);
   }
 });
 
