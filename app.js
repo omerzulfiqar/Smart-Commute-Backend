@@ -36,7 +36,7 @@ app.use(setConnectionTimeout('30s'));
 const corsOptions = {
   origin: '*',
   methods: ['GET', 'PUT', 'DELETE', 'POST', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type'],
+  allowedHeaders: ['Content-Type', 'api-key'],
 };
 
 app.use(cors(corsOptions));
