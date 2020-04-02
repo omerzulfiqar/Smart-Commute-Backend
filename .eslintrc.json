@@ -23,7 +23,7 @@
         "no-dupe-keys": "error",
         "no-path-concat": "off",
         "no-process-env": "off",
-        "indent": ["error", 2, { "SwitchCase": 1 }],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "single", { "allowTemplateLiterals": true }],
         "semi": ["error", "always"],
