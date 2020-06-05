@@ -1,9 +1,11 @@
 const express = require('express');
 const _ = require('lodash');
 const HTTPStatus = require('http-status');
+const { v4: uuidv4 } = require('uuid');
 const db = require('../model/database.js');
 const { requiredAuth } = require('../middleware/auth.js');
 const { removeEntry, addEntry, updateWebPush } = require('../model/event.js');
+
 
 const router = express.Router();
 
@@ -111,10 +113,26 @@ router.put('/', requiredAuth(), async (req, res) => {
         // data.Category = e.Category;
         data.IsDeleted = false;
         // data.code = e.code;
-        data.code = e.code;
-        data.message = e.tweet_text;
+        if (_.isEmpty(e.code)) {
+            data.code = null;
+        } else {
+            data.code = e.code;
+        }
+        data.label = e.label;
+        data.url = e.url;
+        if (!_.isEmpty(e.tweet_text)) {
+            data.message = e.tweet_text;
+        } else if (!_.isEmpty(e.text)) {
+            data.message = e.text;
+        }
+
         data.status = 0;
         data.date = e.created_at;
+        data.created_at = e.created_at;
+
+        if (_.isEmpty(e.Tweet_ID)) {
+            data.Tweet_ID = uuidv4();
+        }
         addArray.push(addEntry(data));
     // }
     // const result = await db.db('twitter').collection('User').insertOne(e);
