@@ -125,7 +125,13 @@ router.put('/', requiredAuth(), async (req, res) => {
         } else if (!_.isEmpty(e.text)) {
             data.message = e.text;
         }
-
+        if (!_.isEmpty(e.geo)) {
+            data.coordinates = e.geo.coordinates;
+        }
+        if (!_.isEmpty(e.affectedArea)) {
+            data.affectedArea = e.geo.affectedArea;
+        }
+        
         data.status = 0;
         data.date = e.created_at;
         data.created_at = e.created_at;
