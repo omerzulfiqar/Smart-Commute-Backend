@@ -99,6 +99,8 @@ router.put('/', requiredAuth(), async (req, res) => {
     const removeArray = [];
     const addArray = [];
     _.each(events, async e => {
+        console.log(e)
+        
     // if (e.Tokens[0] === 'cleared' || e.Tweet_Text.startsWith('Cleared:')) {
     //   removeArray.push(removeEntry(e.Tweet_ID));
     // } else {
