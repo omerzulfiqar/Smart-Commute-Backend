@@ -131,7 +131,7 @@ router.put('/', requiredAuth(), async (req, res) => {
             data.coordinates = e.geo.coordinates;
         }
         if (!_.isEmpty(e.affectedArea)) {
-            data.affectedArea = e.geo.affectedArea;
+            data.affectedArea = e.affectedArea;
         }
         
         data.status = 0;
