@@ -48,24 +48,27 @@ const router = express.Router();
 router.get('/', async (_req, res) => {
     try {
         const data = await db.db('twitter').collection('station').find({}).toArray();
-        console.log(data);
         
         const events = await db.db('twitter').collection('threatevent').find({ code: { $ne: null } }).toArray();
-        
+        const areaEvents = await db.db('twitter').collection('threatevent').find({ affectedArea: { $ne: null } }).toArray();
+        _.each(areaEvents, areaEvent => {
+            const stationCodeList = areaEvent.affectedArea;
+            _.each(stationCodeList, stationCode => {
+                const station = _.find(data[0].Stations, { Code: stationCode });
+                station.stories.push(areaEvent);
+            });
+        });
         _.each(events, event => {
             const station = _.find(data[0].Stations, { Code: event.code });
-            if (!_.isEmpty(event.code) && !_.isNil(station)) {
+            if ((!_.isEmpty(event.code) && !_.isNil(station))) {
                 station.stories.push(event);
             }
             station.stories = _.sortBy(station.stories, ['date']);
         });
-        console.log(data);
         _.each(data[0].Stations, station => {
             // eslint-disable-next-line no-param-reassign
-            station.stories = _.sortBy(station.stories, ['date']);
-            
+            station.stories = _.sortBy(station.stories, ['date']);      
         });
-        console.log(data);
         res.status(HTTPStatus.OK).json(data[0]);
     } catch (err) {
         res.status(HTTPStatus.INTERNAL_SERVER_ERROR).json(err);
