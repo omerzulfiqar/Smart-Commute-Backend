@@ -50,7 +50,7 @@ router.get('/', async (_req, res) => {
     try {
         const data = await db.db('twitter').collection('threatevent').find({
             // IsDeleted: { $eq: false }
-        }).toArray();
+        }).sort({ $natural: -1 }).limit(300).toArray();
         const events = { events: [] };
         events.events = data;
         // _.each(data, d => {

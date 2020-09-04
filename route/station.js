@@ -49,8 +49,8 @@ router.get('/', async (_req, res) => {
     try {
         const data = await db.db('twitter').collection('station').find({}).toArray();
         
-        const events = await db.db('twitter').collection('threatevent').find({ code: { $ne: null } }).toArray();
-        const areaEvents = await db.db('twitter').collection('threatevent').find({ affectedArea: { $ne: null } }).toArray();
+        const events = await db.db('twitter').collection('threatevent').find({ code: { $ne: null } }).sort({ $natural: -1 }).limit(300).toArray();
+        const areaEvents = await db.db('twitter').collection('threatevent').find({ affectedArea: { $ne: null } }).sort({ $natural: -1 }).limit(50).toArray();
         _.each(areaEvents, areaEvent => {
             const stationCodeList = areaEvent.affectedArea;
             _.each(stationCodeList, stationCode => {
