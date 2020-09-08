@@ -6,8 +6,8 @@ const NewsModel = {};
 NewsModel.addEntry = (data) => new Promise(async (resolve, reject) => {
     try {
         const e = await db.db('news').collection('news').findOne({
-            Tweet_ID: {
-                $eq: data.Tweet_ID,
+            newsId: {
+                $eq: data.newsId,
             },
         });
         if (_.isEmpty(e)) {
