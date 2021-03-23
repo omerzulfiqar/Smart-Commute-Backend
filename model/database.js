@@ -1,12 +1,12 @@
-const MongoClient = require('mongodb').MongoClient;
+const { MongoClient } = require('mongodb');
 const config = require('../config/env.js');
 
 const client = new MongoClient(config.mongodbUrl, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 });
 client.connect(err => {
-  if (err) throw err;
+    if (err) throw err;
 //   client.close();
 });
 
